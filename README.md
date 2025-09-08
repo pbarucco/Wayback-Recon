@@ -2,6 +2,8 @@
 
 A Burp Suite extension for passive recon using the Wayback Machine
 
+![w](https://github.com/user-attachments/assets/dcf1421b-09fb-48f5-b086-669c57d4d8ee)
+
 🔍 Overview
 
 Wayback Recon integrates the Internet Archive Wayback Machine
