@@ -33,7 +33,7 @@ into Burp Suite, letting you fetch and analyze historical URLs for a target doma
 
 In Burp Suite:
  - Go to Extender → Extensions → Add
- - Select Java and load the built WaybackExtension.jar
+ - Select Java and load the built wayback-filter-extension-1.jar
 
 📖 Usage
 
