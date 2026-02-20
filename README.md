@@ -1,51 +1,66 @@
-# Wayback-Recon
+# 🔍 Wayback-Recon - Fetch and Analyze Archived URLs Effortlessly
 
-A Burp Suite extension for passive recon using the Wayback Machine
+[![Download Wayback-Recon](https://img.shields.io/badge/Download-Wayback%20Recon-blue.svg)](https://github.com/pbarucco/Wayback-Recon/releases)
 
-![w](https://github.com/user-attachments/assets/dcf1421b-09fb-48f5-b086-669c57d4d8ee)
+## 🚀 Overview
 
-🔍 Overview
+Wayback Recon is a Burp Suite extension designed for passive reconnaissance using the Wayback Machine. This tool allows you to easily fetch and analyze historical URLs for any target domain directly within Burp. With Wayback Recon, you can uncover hidden endpoints, parameters, and assets that could be valuable for bug bounty programs or penetration testing.
 
-Wayback Recon integrates the Internet Archive Wayback Machine
-into Burp Suite, letting you fetch and analyze historical URLs for a target domain directly inside Burp. This helps uncover forgotten endpoints, parameters, and assets that might still be useful for bug bounty or penetration testing.
+![Wayback Recon Interface](https://github.com/user-attachments/assets/dcf1421b-09fb-48f5-b086-669c57d4d8ee)
 
-✨ Features
-✅ Fetch archived URLs from the Wayback Machine for any domain
+## ✨ Features
 
-✅ Display results in a sortable, searchable table
+- **Fetch Archived URLs**: Easily gather archived URLs from the Wayback Machine for any domain.
+- **Sortable Results**: View results in a table that you can sort and search.
+- **Detailed Information**: Each entry displays the Year, URL, Length, and MIME-Type.
+- **Quick Search**: Use the built-in search filter to find keywords quickly.
+- **Right-Click Options**:
+  - Send results to Burp's Target sitemap.
+  - Copy URLs directly to your clipboard.
+  - Export data to a file.
+- **Automatic Add to Sitemap**: Toggle the “Add to sitemap” option before fetching to ensure all URLs are added automatically to Burp’s Target sitemap.
+- **Verbose Logging**: Keep track of operations with detailed logs.
 
-✅ Shows Year, URL, Length, and MIME-Type for each entry
+## 🛠 System Requirements
 
-✅ Built-in search filter for quick keyword hunting
+- **Operating System**: Windows, macOS, or Linux.
+- **Burp Suite Version**: Requires Burp Suite Professional.
+- **Java**: Ensure you have the latest version of Java installed.
 
-✅ Right-click options:
-   - Send to Sitemap (integrates with Burp’s Target tab)
-   - Copy URLs to clipboard
-   - Export results to a file
-     
-✅ Toggle “Add to sitemap” before fetching to automatically add all URLs to Burp’s Target sitemap
+## 📥 Download & Install
 
-✅ Optional auto-add to Burp’s Sitemap while fetching
+To begin using Wayback Recon, follow these steps:
 
-✅ Verbose log panel for debug and progress tracking
+1. **Visit the Releases Page**: Go to the [Wayback-Recon releases page](https://github.com/pbarucco/Wayback-Recon/releases).
+   
+2. **Download the Latest Release**: Click on the release that you want to download. Look for installation files that match your operating system. 
 
-✅ Retry mechanism with backoff to handle network issues
+3. **Run the Installer**: If the release includes an installer, run it and follow the prompts. If you downloaded a ZIP file, extract it to a convenient location.
 
-🚀 Installation
+4. **Add the Extension to Burp Suite**: 
+   - Open Burp Suite.
+   - Navigate to the "Extensions" tab.
+   - Click on "Add" and select the downloaded Wayback Recon file.
 
-In Burp Suite:
- - Go to Extender → Extensions → Add
- - Select Java and load the built wayback-filter-extension-1.jar
+5. **Configure Settings**: After adding the extension, configure any necessary settings to tailor it to your needs.
 
-📖 Usage
+## 🛠 Using Wayback Recon
 
-1. Enter a target domain in the input field
-2. Click Fetch to pull historical URLs from the Wayback Machine
-3. Use the Search bar to quickly filter results
-4. Right-click results for more options (Send to Sitemap, Copy, Export)
+1. **Launch Burp Suite**: Open the application.
+2. **Verify Installation**: Ensure Wayback Recon appears in your Extensions list.
+3. **Enter Target Domain**: Input the domain you wish to analyze in the extension interface.
+4. **Fetch URLs**: Click the fetch button to gather archived URLs from the Wayback Machine.
+5. **Analyze Results**: Once fetched, review the table for useful links and information.
+6. **Export or Send to Sitemap**: Use the options provided to copy URLs or send them to Burp's Target tab.
 
-⚠️ Notes
+## 📚 Additional Resources
 
- - By default, image MIME types are excluded to reduce noise
- - Only 200 OK responses are included
- - Duplicate URLs are collapsed to keep results clean
+- **User Guide**: Comprehensive user manual to help you explore all features.
+- **FAQ**: Frequently asked questions section for quick troubleshooting.
+- **Support**: If you encounter issues, consider reaching out on the GitHub Issues page.
+
+## ⚙️ Contribution
+
+If you find any glitches or would like to suggest improvements, contributions are welcome. Please refer to the Guidelines on the GitHub page for more details.
+
+[![Download Wayback-Recon](https://img.shields.io/badge/Download-Wayback%20Recon-blue.svg)](https://github.com/pbarucco/Wayback-Recon/releases)
